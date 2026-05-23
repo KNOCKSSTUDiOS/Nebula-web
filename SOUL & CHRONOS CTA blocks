@@ -1,0 +1,17 @@
+<!-- SOUL -->
+<div class="cta">
+  <a class="btn" href="https://soul.knocksstudios.app">▶ Launch SOUL</a>
+  <a class="btn btn-ghost" href="/pricing">View Tiers</a>
+</div>
+
+<!-- SOUL pricing section (add after .grid) -->
+<section class="grid">
+  <div class="card"><h3>Pack S</h3><p>20 credits • $X</p>
+    <a class="btn" href="/api/buy?tier=s">Buy</a></div>
+  <div class="card"><h3>Pack M</h3><p>80 credits • $X</p>
+    <a class="btn" href="/api/buy?tier=m">Buy</a></div>
+  <div class="card"><h3>Pack L</h3><p>200 credits • $X</p>
+    <a class="btn" href="/api/buy?tier=l">Buy</a></div>
+  <div class="card"><h3>Subscription</h3><p>$500/mo unlimited</p>
+    <a class="btn" href="/api/buy?tier=sub">Subscribe</a></div>
+</section>
