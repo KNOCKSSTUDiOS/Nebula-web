@@ -1,0 +1,24 @@
+/* ── KNOCKSSTUDiOS • HOLLYWOOD IMAGING • BRAND TOKENS ───────── */
+:root {
+  --ks-bg:        #0a0a0f;
+  --ks-fg:        #f4f4f6;
+  --ks-muted:     #8b8b9a;
+  --ks-border:    rgba(255,255,255,0.08);
+  --ks-radius:    14px;
+  --ks-font:      'Inter', system-ui, -apple-system, sans-serif;
+  --ks-mono:      'JetBrains Mono', ui-monospace, monospace;
+}
+[data-app="nebula"]   { --app-bg:#0B0F1F; --app-accent:#7C5CFF; }
+[data-app="soul"]     { --app-bg:#0A1A18; --app-accent:#00E5C7; }
+[data-app="chronos"]  { --app-bg:#1A1410; --app-accent:#FFB347; }
+
+* { box-sizing:border-box; margin:0; padding:0; }
+html,body { background:var(--app-bg,var(--ks-bg)); color:var(--ks-fg);
+  font-family:var(--ks-font); -webkit-font-smoothing:antialiased; }
+.btn { display:inline-flex; align-items:center; gap:8px;
+  padding:14px 22px; border-radius:var(--ks-radius);
+  background:var(--app-accent); color:#000; font-weight:600;
+  text-decoration:none; transition:transform .15s; }
+.btn:hover { transform:translateY(-1px); }
+.btn-ghost { background:transparent; color:var(--app-accent);
+  border:1px solid var(--app-accent); }
